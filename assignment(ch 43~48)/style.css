@@ -1,0 +1,45 @@
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#counter-value {
+    font-size: 3em;
+    margin: 20px 0;
+    color: #007bff;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#increase-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+#increase-btn:hover {
+    background-color: #218838;
+}
+
+#decrease-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+#decrease-btn:hover {
+    background-color: #c82333;
+}
