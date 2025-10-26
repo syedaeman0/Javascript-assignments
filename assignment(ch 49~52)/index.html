@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--  <form id="frm">
+        <fieldset class="fieldset">
+            <legend class="legend">SIGN UP</legend>
+            <label class="tittle" for="firstname">First Name:
+                <input class="field" type="text" name="firstname" id="firstname"
+                    placeholder="first name"></label><br><br>
+            <label class="tittle" for="lastname">Last Name:
+                <input class="field" type="text" name="lastname" id="lastname" placeholder="last name" required="">
+            </label><br><br>
+            <label class="tittle" for="age">Last Name:
+                <input class="field" type="text" name="age" id="age" placeholder="age" required="">
+            </label><br><br>
+            <center>
+                <button class="button" id="done">Done</button><br><br>
+            </center>
+        </fieldset>
+    </form> -->
+    <!-- <form class="edited" id="frm">
+        Name: <input type="text" id="name"><br>
+        father Name: <input type="text" id="fname"><br>
+        Age: <input type="text" id="age"><br>
+    </form>
+    <h1>Student Data</h1>
+    <table border="1" align="center">
+        <tbody>
+            <tr class="one">
+                <th>No</th>
+                <th>Name</th>
+                <th>father name</th>
+                <th>Age</th>
+                <th>aksi</th>
+            </tr>
+            <tr class="two">
+                <td>01</td>
+                <td>Annaya</td>
+                <td>Aditiya Patel</td>
+                <td>16</td>
+                <td>
+                    <button id="btn" onclick="editedbtn()">Edited</button>
+                    <button>submit</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr class="one">
+                <td>02</td>
+                <td>taha</td>
+                <td>Shahid</td>
+                <td>17</td>
+                <td>
+                    <button onclick="editedbtn1()">Edited</button>
+                    <button>submit</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr class="two">
+                <td>03</td>
+                <td>ahmed</td>
+                <td>Nadeem</td>
+                <td>18</td>
+                <td>
+                    <button onclick="editedbtn2()">Edited</button>
+                    <button>submit</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table> -->
+
+    <h2>Add Student</h2>
+
+    <!-- Add Form -->
+    <form id="addForm">
+        Name: <input type="text" id="name" required>
+        Age: <input type="number" id="age" required>
+        Grade: <input type="text" id="grade" required>
+        <button type="submit">Add</button>
+    </form>
+
+    <!-- Edit Form -->
+    <form id="editForm" class="hidden">
+        <h3>Edit Student</h3>
+        Name: <input type="text" id="editName" required>
+        Age: <input type="number" id="editAge" required>
+        Grade: <input type="text" id="editGrade" required>
+        <button type="submit">Update</button>
+        <button type="button" id="cancelBtn">Cancel</button>
+    </form>
+
+    <!-- Table -->
+    <table id="studentTable">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Grade</th>
+            <th>Action</th>
+        </tr>
+    </table>
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
